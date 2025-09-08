@@ -14,8 +14,8 @@ The motivation was to build an AI-powered web app that:
 - Supports preventive healthcare decision-making.  
 
 **📂 Data Sources**  
-- Publicly available medical datasets (e.g., PIMA Diabetes Dataset, UCI Heart Disease Dataset).  
-- User input health data (age, gender, BMI, blood glucose, blood pressure, etc.).  
+- Publicly available medical datasets on kaggle. 
+- User input health data and symptoms.  
 
 **🛠 Tools and Technology**  
 - **Languages**: Python  
@@ -23,7 +23,7 @@ The motivation was to build an AI-powered web app that:
   - ML: Scikit-learn, NumPy, Pandas  
   - Explainability: LIME  
   - Visualization: Matplotlib, Seaborn  
-- **Frameworks**: Flask (backend), HTML/CSS/JS (frontend)  
+- **Frameworks**: Flask (backend), HTML/CSS (frontend)  
 - **Platform**: Jupyter Notebook + Flask server  
 
 **🔎 Analysis and Methodology**  
@@ -33,7 +33,7 @@ The motivation was to build an AI-powered web app that:
    - Split data into training and test sets for evaluation.  
 
 2. **Modeling**  
-   - Trained multiple models (Random Forest, Logistic Regression, SVM).  
+   - Trained multiple models (Random Forest, Neural Networks (CNN)).  
    - Selected **Random Forest Classifier** for high accuracy and robustness.  
    - Saved models as `.pkl` files for deployment in Flask.  
 
